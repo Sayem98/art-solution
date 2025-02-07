@@ -18,8 +18,18 @@ const ClientsSection: React.FC = () => {
       src: "/images/cjab8YLf_400x400.jpg",
       twitter: "https://x.com/aika_verse",
     },
-
-    // Add more clients with their respective Twitter URLs
+    {
+      src: "/images/client1.jpg",
+      twitter: "https://x.com/aika_verse",
+    },
+    {
+      src: "/images/Ng-mnbQ0_400x400.jpg",
+      twitter: "https://x.com/Hawksnest_sol",
+    },
+    {
+      src: "/images/FBQWKnR4_400x400.jpg",
+      twitter: "https://x.com/EclipseFND",
+    },
   ];
 
   return (
@@ -30,14 +40,16 @@ const ClientsSection: React.FC = () => {
         </h2>
 
         <p className="text-gray-500 mb-8">Projects We Have Worked With</p>
-        <div className="flex  gap-4 items-center justify-center">
+
+        {/* Grid layout for responsiveness */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
           {clients.map((client, index) => (
             <a
               key={index}
               href={client.twitter}
               target="_blank"
               rel="noopener noreferrer"
-              className="relative h-32 w-32 hover:scale-105 transition-transform duration-200"
+              className="relative h-36 w-36 sm:h-40 sm:w-40 mx-auto hover:scale-105 transition-transform duration-200"
             >
               <Image
                 src={client.src}
