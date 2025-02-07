@@ -21,6 +21,7 @@ const Navbar: React.FC = () => {
             alt="9F Studio Logo"
             width={72}
             height={72}
+            className="rounded-full"
           />
         </div>
 

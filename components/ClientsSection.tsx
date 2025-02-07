@@ -36,10 +36,10 @@ const ClientsSection: React.FC = () => {
     <section className="py-12">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-extrabold leading-tight tracking-wide text-gray-800 mb-6">
-          Thank You For Letting Us Be A Part Of Building Your Brand
+          Thank You For Letting Me Be A Part Of Building Your Brand
         </h2>
 
-        <p className="text-gray-500 mb-8">Projects We Have Worked With</p>
+        <p className="text-gray-500 mb-8">Projects I Have Worked With</p>
 
         {/* Grid layout for responsiveness */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
