@@ -6,10 +6,10 @@ const ClientsSection: React.FC = () => {
     { src: "/images/U9nykgto.jpg", twitter: "https://x.com/SeedifyFund" },
     { src: "/images/JQhv0G7n_400x400.jpg", twitter: "https://x.com/CocaCola" },
     {
-      src: "/hoiY8lw7_400x400.jpg",
+      src: "/images/hoiY8lw7_400x400.jpg",
       twitter: "https://x.com/DeadKingSociety/media",
     },
-    { src: "/MApYDPxJ_400x400.jpg", twitter: "https://x.com/scopenft" },
+    { src: "/images/MApYDPxJ_400x400.jpg", twitter: "https://x.com/scopenft" },
     // Add more clients with their respective Twitter URLs
   ];
 
