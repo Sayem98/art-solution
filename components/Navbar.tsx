@@ -16,7 +16,12 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo Section */}
         <div className="flex items-center">
-          <Image src="/logo.png" alt="9F Studio Logo" width={72} height={72} />
+          <Image
+            src="/images/logo.png"
+            alt="9F Studio Logo"
+            width={72}
+            height={72}
+          />
         </div>
 
         {/* Desktop Navigation */}

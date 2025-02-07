@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const ClientsSection: React.FC = () => {
   const clients = [
-    { src: "/okx.jpg", twitter: "https://x.com/okx" },
-    { src: "/U9nykgto.jpg", twitter: "https://x.com/SeedifyFund" },
-    { src: "/JQhv0G7n_400x400.jpg", twitter: "https://x.com/CocaCola" },
+    { src: "/images/okx.jpg", twitter: "https://x.com/okx" },
+    { src: "/images/U9nykgto.jpg", twitter: "https://x.com/SeedifyFund" },
+    { src: "/images/JQhv0G7n_400x400.jpg", twitter: "https://x.com/CocaCola" },
     {
       src: "/hoiY8lw7_400x400.jpg",
       twitter: "https://x.com/DeadKingSociety/media",

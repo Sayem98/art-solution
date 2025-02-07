@@ -1,11 +1,11 @@
 import Image from "next/image";
 
 const images = [
-  { id: 1, src: "/g_image1.jpg", alt: "Sailery" },
-  { id: 2, src: "/g_image2.jpg", alt: "Hristanne" },
-  { id: 3, src: "/g_image3.jpg", alt: "Sticker Pack" },
-  { id: 4, src: "/g_image4.jpg", alt: "Sticker Pack" },
-  { id: 5, src: "/g_image5.jpg", alt: "Sticker Pack" },
+  { id: 1, src: "/images/g_image1.jpg", alt: "Sailery" },
+  { id: 2, src: "/images/g_image2.jpg", alt: "Hristanne" },
+  { id: 3, src: "/images/g_image3.jpg", alt: "Sticker Pack" },
+  { id: 4, src: "/images/g_image4.jpg", alt: "Sticker Pack" },
+  { id: 5, src: "/images/g_image5.jpg", alt: "Sticker Pack" },
 
   // Add more images as needed
 ];
