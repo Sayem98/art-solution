@@ -10,6 +10,15 @@ const ClientsSection: React.FC = () => {
       twitter: "https://x.com/DeadKingSociety/media",
     },
     { src: "/images/MApYDPxJ_400x400.jpg", twitter: "https://x.com/scopenft" },
+    {
+      src: "/images/zMO_5G7i_400x400.jpg",
+      twitter: "https://x.com/CostaCoffee",
+    },
+    {
+      src: "/images/cjab8YLf_400x400.jpg",
+      twitter: "https://x.com/aika_verse",
+    },
+
     // Add more clients with their respective Twitter URLs
   ];
 
@@ -28,7 +37,7 @@ const ClientsSection: React.FC = () => {
               href={client.twitter}
               target="_blank"
               rel="noopener noreferrer"
-              className="relative h-16 w-32 hover:scale-105 transition-transform duration-200"
+              className="relative h-32 w-32 hover:scale-105 transition-transform duration-200"
             >
               <Image
                 src={client.src}
