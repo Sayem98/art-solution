@@ -20,7 +20,7 @@ const ClientsSection: React.FC = () => {
     },
     {
       src: "/images/client1.jpg",
-      twitter: "https://x.com/aika_verse",
+      twitter: "https://x.com/FoxKidsNetwork",
     },
     {
       src: "/images/Ng-mnbQ0_400x400.jpg",
