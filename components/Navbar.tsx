@@ -70,7 +70,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Navigation Dropdown */}
       <div
-        className={`md:hidden bg-gray-100 p-4 space-y-4 text-lg font-medium shadow-md transition-all duration-300 ease-in-out ${
+        className={`md:hidden bg-gray-100 text-black p-4 space-y-4 text-lg font-medium shadow-md transition-all duration-300 ease-in-out ${
           isOpen ? "opacity-100 max-h-96" : "opacity-0 max-h-0 overflow-hidden"
         }`}
       >
