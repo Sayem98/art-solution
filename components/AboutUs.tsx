@@ -5,7 +5,7 @@ const AboutUs: React.FC = () => {
     <section id="about" className="py-12 px-4 sm:px-6 lg:px-8 bg-[#eff3f9]">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
-          About Us
+          About Me
         </h2>
 
         <div className="flex flex-col lg:flex-row items-stretch gap-8">
