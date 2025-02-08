@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { FaTwitter } from "react-icons/fa"; // Import icons
 
 const Footer: React.FC = () => {
   return (
@@ -22,21 +23,18 @@ const Footer: React.FC = () => {
             {/* <h3 className="text-2xl font-bold mb-4">9FSTUDIO Services</h3> */}
             <ul className="space-y-2">
               <li>
-                <Link href="/about" className="text-gray-400 hover:text-white">
+                <Link href="#about" className="text-gray-400 hover:text-white">
                   About
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/stories"
-                  className="text-gray-400 hover:text-white"
-                >
+                <Link href="#story" className="text-gray-400 hover:text-white">
                   Stories
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/contact"
+                  href="#contact"
                   className="text-gray-400 hover:text-white"
                 >
                   Contact us
@@ -48,6 +46,16 @@ const Footer: React.FC = () => {
           {/* Connects Section */}
           <div>
             <h3 className="text-2xl font-bold mb-4">Connects</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link
+                  href="https://x.com/Trippsoul_NFT"
+                  className="text-gray-400 hover:text-white"
+                >
+                  <FaTwitter size={24} />
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
 
