@@ -6,6 +6,8 @@ const images = [
   { id: 3, src: "/images/g_image3.jpg", alt: "Sticker Pack" },
   { id: 4, src: "/images/g_image4.jpg", alt: "Sticker Pack" },
   { id: 5, src: "/images/g_image5.jpg", alt: "Sticker Pack" },
+  { id: 6, src: "/images/g_image6.jpg", alt: "Sticker Pack" },
+  { id: 7, src: "/images/g_image7.jpg", alt: "Sticker Pack" },
 
   // Add more images as needed
 ];
